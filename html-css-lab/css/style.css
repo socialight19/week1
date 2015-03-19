@@ -1,0 +1,145 @@
+
+* {
+	margin: 0;
+}
+#greybackground {
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 65%;
+   width: 100%;
+   z-index: -1;
+   border-bottom: 1px solid white;
+	/*background-image: url(../images/bg_blurb.jpg);
+   background-repeat: repeat-y;*/
+   background-color: #e5e5e5;
+   
+}
+body {
+	margin: 0;
+	margin-top: 0;
+	background-image: url(../images/bg_body.jpg);
+	  background-repeat: repeat;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#busymedia {
+	padding: 1%;
+	margin: 10px auto 6% auto;
+
+}
+
+#header {
+	background-color: black;
+	min-height: 50px;
+	margin: 0 auto;
+}
+
+#header > ul > li {
+	display: inline-block;
+	margin: auto auto;
+}
+
+#header > ul > li > a {
+	color: #cccccc;
+	text-decoration: none;
+	font-size: 18pt;
+}
+
+.topmenu {
+	padding-left: 5%;
+	padding-top: 1.5%;
+}
+
+#mainlogo {
+	float: left;
+}
+
+#greymedia {
+	float: right;
+}
+
+#mainbody {
+	max-width: 970px;
+	margin: 0 auto;
+
+}
+
+#mainimage {
+	 padding: 0; 
+	text-align: center;	  
+}
+
+#shadow {
+	margin-top: -4px;
+}
+
+
+.mainimage > img {
+	margin: 0;
+}
+
+#middlesection {
+	/*background-image: url("../images/bg_blurb.png");*/
+	background-image: url(../images/bg_body.jpg);
+   background-repeat: repeat;	
+   max-height: 100px;
+	min-height: 100px;
+	border-top: 1px solid #bdbdbd;
+	border-left: 1px solid #bdbdbd;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.wrapper{
+    position: relative; 
+    width: 943px; 
+    margin: 0 auto;
+/*    background: url(./images/bg_body.jpg);
+*/
+}
+
+#midleft {
+	max-width: 70%;
+	display: inline-block;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+#midright {
+	max-width: 30%;
+	position: relative;
+	float: right;
+	margin-top: 3%;
+	margin-right: 5%;
+}
+
+.homebox {
+	margin: 20px 0;
+ 	max-width: 33%;	
+ 	display: inline-block;
+
+}
+
+.homebox > img {
+	border: px solid #e2e2e2;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.boxtext {
+	max-width: 80%;
+	font-size: 14px;
+	padding: 2px;
+}
+
+#footer {
+	min-height: 100px;
+	background-color: black;
+}
+
+
+
+#greybackground {
+   
+}
+
+
